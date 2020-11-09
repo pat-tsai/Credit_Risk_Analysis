@@ -9,38 +9,38 @@
 Model results:
 **When evaluating the model results it's important to keep in mind 3 key attributes: precision (fraction of relevant instances among retrieved instances), recall (sensitivity/fraction of total relevant instances retrieved), and index balanced accuracy.**
 
-**1) Oversampling model: naive random oversampling
+**1) Oversampling model: naive random oversampling**
 
 ![ScreenShots](/resources/random_oversampling.PNG)
 
 This model had 100% precision/62% sensitivity for determining low risk loans and 1% precision/ 67% sensitivity for high risk loans. Accuracy was 42% and 41% respectively.   
 
-**2) SMOTE oversampling model
+**2) SMOTE oversampling model**
 
 ![ScreenShots](/resources/smote_oversampling.PNG)
 
 This model had 100% precision/67% sensitivity for determining low risk loans and 1% precision/ 62% sensitivity for high risk loans. Accuracy was 42% for both groups. This model slightly outperformed the previous model, but prediction rates for high risk loans are not very high and misses almost 40% of threats.
 
-**3) Undersampling
+**3) Undersampling**
 
 ![ScreenShots](/resources/undersampling.PNG)
 
 This model had 100% precision/41% sensitivity for determining low risk loans and 1% precision/ 68% sensitivity for high risk loans. Accuracy was 29% and 27% respectively. Performing undersampling on its own seems to have a negative effect on this dataset.
 
-**4) Combination sampling
+**4) Combination sampling**
 
 ![ScreenShots](/resources/combination_sampling.PNG)
 
 This model had 100% precision/56% sensitivity for determining low risk loans and 1% precision/ 79% sensitivity for high risk loans. Accuracy was 45% and 43% respectively. In this case, combination sampling outperforms undersampling and oversampling used seperately. 
 
 
-**5) Balanced Random Forest
+**5) Balanced Random Forest**
 
 ![ScreenShots](/resources/balanced_random_forest.PNG)
 
 This model had 100% precision/88% sensitivity for determining low risk loans and 3% precision/ 71% sensitivity for high risk loans. Accuracy was 62% and 64% respectively. This model greatly outperforms all previous models. 
 
-**6) Easy Ensemble
+**6) Easy Ensemble**
 
 ![ScreenShots](/resources/easy_ensemble.PNG)
 
