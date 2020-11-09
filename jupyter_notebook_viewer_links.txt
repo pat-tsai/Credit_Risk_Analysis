@@ -1,0 +1,4 @@
+https://github.com/pat-tsai/Credit_Risk_Analysis/blob/main/credit_risk_resampling.ipynb
+
+https://nbviewer.jupyter.org/github/pat-tsai/Credit_Risk_Analysis/blob/main/credit_risk_ensemble.ipynb
+
